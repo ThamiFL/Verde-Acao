@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Verde Ação</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Sansita+Swashed:wght@300..900&display=swap" rel="stylesheet">
+
+
+<!-------------------------------------------------------------->
+
 </head>
 <body>
+
     <header>
         <h2>Verde Ação</h2>
         <nav>
@@ -17,15 +28,96 @@
             <a href="#">Cadastre-se</a>
         </nav>
     </header>
+
+<!------------------------------------------------------------>
+
 <main>
 <section class="background">
 <h1> Verde Ação </h1>
-<p> Ser voluntário na Verde Ação é plantar esperança 
+<p class="p1"> Ser voluntário na Verde Ação é plantar esperança 
     e colher transformação. Juntos, cuidamos do planeta e 
     inspiramos mudanças reais! </p>
-<button> Quero ser voluntario </button>
+<button class="botãobackground"> Quero ser voluntário </button>
 </section>
+
+<!------------------------------------------------------------>
+
+<section class="card">
+
+<article class="cards">
+<img src="./assets/girassol.png" alt="Girassois">
+<h3> Plantio de mudas </h3>
+<p>Cada muda plantada ajuda a restaurar o meio ambiente</p>
+<button> Ver mais </button>
+</article>
+
+<article class="cards">
+<img src="./assets/criancas.png" alt="Crianças">
+<h3>Educação Ambiental </h3>
+<p> Promove oficinas e rodas de conversas</p>
+<button> Ver mais </button>
+</article>
+
+<article class="cards">
+<img src="./assets/plantacao.png" alt="Pessoas plantando">
+<h3> Cuidados </h3>
+<p> Ajude a manter areas preservadas </p>
+<button> Ver mais </button>
+</article>
+
+<article class="cards">
+<img src="./assets/florestas.png" alt="Crianças">
+<h3> Mapeamento </h3>
+<p> Indentifique areas que precisam de mapeamento </p>
+<button> Ver mais </button>
+</article>
+
+</section>
+
+<!------------------------------------------------------------>
+
+<form action=""> 
+
+ <h2 class="h22">Cadastre-se como voluntário </h2>  
+<p class="p2">Faça parte de ações que transformam o mundo. Com pequenas atitudes, 
+você pode gerar grandes impactos na natureza e na comunidade </p>
+
+<div>
+<p class="pdiv"><label for="nome">Nome: </label></p>
+<input type="text" name="nome" id="nome"
+placeholder="Nome"/> 
+</div>
+   
+<div>
+<p class="pdiv"><label for="email">Email:</label></p>
+<input type="email" id="email" name="email" required 
+placeholder="Email"/> 
+</div>
+
+<div>
+<p class="pdiv"><label for="nome">Cidade:</label></p>
+<input type="nome" id="nome" name="nome" required 
+placeholder="Cidade"/> 
+</div>
+
+<div>
+<p class="pdiv"><label for="atividade">Ativdade:</label></p>
+<select id="atividade" name="atividade">
+<option value="Selecione">Selecione</option>
+</select>
+</div>
+
+<button class="botão"> Cadatrar </button>
+    
+</form>
+
 </main>
+
+<!--------------------------------------------->
+
+<footer>© todos os direitos reservados</footer>
+
+<!--------------------------------------------->
 
 </body>
 </html>

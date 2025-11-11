@@ -7,9 +7,9 @@
 
 header {
     background-color: #66BB6A;
-    height: 8vh;
+    height: 9vh;
     color: #ffffff;
-   
+  
     h2 {
         display: inline-block; 
         width: 40%;
@@ -21,7 +21,7 @@ header {
      } 
    
     nav {
-   width: 40%; 
+   width: 45%; 
     display: inline-block; 
    text-align: end;
    
@@ -150,11 +150,11 @@ form {
     height: 500px;
     text-align: center;
     height: 700px;
-    padding: 10px;
+    padding: 3%;
     font-family: "Roboto", sans-serif;
    
     .pdiv {
-        margin: 10px;
+        margin: 8px;
         text-align: center;
         font-weight: 600;
     }
@@ -172,26 +172,25 @@ input {
 
 select {
 
-    border-radius: 20px;
+    border-radius: 20%;
     border: none;
     height: 3vh;
     width: 25vw;
     text-align: left; 
-    padding: 20px ;
-    margin: 15px;
+    padding: 1%;
+    margin: 1%;
 }
-
-}
-
 .botão {
 background-color: #66BB6A;
 padding: 10px 30px;
 border: none;
 border-radius: 13px;
 color: #ffffff;
-width: 350px;
+width: 15vw;
 margin-top: 30px;
 font-family: "Roboto", sans-serif;
+}
+
 }
 
  //////////////////////////////////////////////////////////
@@ -200,8 +199,8 @@ footer {
     background-color: #66BB6A;
     color: #F1F8E9;
     text-align: center;
-    padding: 16px;
+    padding: 1%;
     font-family: "Roboto", sans-serif;
 }
 
- ///////////////////////////////////////////////////////
+ //////////////////////////////////////////////////////
